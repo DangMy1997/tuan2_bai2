@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/TextView_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farenheit"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText_f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celcius"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="50"
+        android:inputType="textPostalAddress" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button_sangc"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Convert To Celcius"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/button_sangf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Conver To Fahrenheit"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CLEAR" />
+
+</LinearLayout>
